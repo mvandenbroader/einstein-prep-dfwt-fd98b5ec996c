@@ -1,6 +1,157 @@
 {
   "submissions": [
     {
+      "branchId": "dallas",
+      "branchName": "Dallas",
+      "managerId": "chris-beattie",
+      "managerName": "Chris Beattie",
+      "role": "BM",
+      "weekOf": "2026-09-07",
+      "priorWeekOf": "2026-08-31",
+      "submittedAt": "2026-09-08T15:51:43.447Z",
+      "goals": [
+        {
+          "goalId": 1,
+          "goalName": "Mover Training App",
+          "statusAtPrep": "green",
+          "selfStatus": "super_green",
+          "lastWeekActions": "Talked about getting on the app, resent the link during every Morning Huddle; Reminded FM to get each mover at every on-site to complete a task on the Training App; Reminded crews as they got back to get with FM and get through tasks",
+          "thisWeekPlan": "Much of the same - but also, for those not getting it, will be logging a late-arrival point for them every 2 days; Just need Leads to get on board and start doing it"
+        },
+        {
+          "goalId": 2,
+          "goalName": "Individual Sales Goal",
+          "statusAtPrep": "super_green",
+          "selfStatus": "super_green",
+          "lastWeekActions": "Hit $14K booked and already at 142% to target for September, so well ahead of pace for the month and quarter",
+          "thisWeekPlan": "Just staying up on sales daily when time and on sales blocks to keep pushing the number upward"
+        },
+        {
+          "goalId": 3,
+          "goalName": "Scrum University",
+          "statusAtPrep": "blocked",
+          "selfStatus": null,
+          "lastWeekActions": "Got introduced to the scoring rubric and graded as a test run",
+          "thisWeekPlan": "Making sure we have our boards set up right daily before Sync Up"
+        },
+        {
+          "goalId": 4,
+          "goalName": "Overall Games Accountability",
+          "statusAtPrep": "red",
+          "selfStatus": "green",
+          "lastWeekActions": "Just checked the Command Center and saw weakest points, reined in logging of lates/callouts, set up Damage Warning system and told team about it",
+          "thisWeekPlan": "Keeping on top of low scores - Reviews and Damages - by keeping them top of mind in huddles, when crews get back; Issuing warnings and reminding team about the new warning system for Damages"
+        },
+        {
+          "goalId": 5,
+          "goalName": "BM Flex Goal (Limit OT)",
+          "statusAtPrep": "red",
+          "selfStatus": "red",
+          "lastWeekActions": "I was checking the OT report but there is a big lag with Rippling clock times - having to adjust/fix them daily, cannot always get to them",
+          "thisWeekPlan": "Calculating and logging OT for the team last week, and creating a baseline; Shifting personnel across open/booked trucks day to day early and often"
+        }
+      ],
+      "commandCenter": [
+        {
+          "key": "tile:branchSales",
+          "label": "Branch Sales",
+          "kind": "tile",
+          "value": "97%",
+          "band": "g",
+          "comment": "I am way ahead on sales target - at 142% for September - and booked much of it last week - helping keep our Branch sales high"
+        },
+        {
+          "key": "tile:indivSales",
+          "label": "Individual Sales",
+          "kind": "tile",
+          "value": "49%",
+          "band": "r",
+          "comment": "OPS manager is low - I am well ahead of target goal already, Landon needs to catch up -- needs take advantage of sales block and be on sales at other times daily"
+        },
+        {
+          "key": "tile:games",
+          "label": "Einstein Games",
+          "kind": "tile",
+          "value": "6.2 / 13",
+          "band": "watch",
+          "comment": "The Einstein Games dashboard says we are at 7.8/13 right now, so we are up this week, but Command Center says we scored 6 for this past week -- need to keep pushing reviews and staying on top of Damage warnings"
+        },
+        {
+          "key": "dive:nps",
+          "label": "Customer NPS",
+          "kind": "dive",
+          "value": "87",
+          "band": "r",
+          "comment": "Just have had some low scores in recent weeks/months - need to get more 10s to bring up quickly"
+        },
+        {
+          "key": "dive:damages",
+          "label": "Damages",
+          "kind": "dive",
+          "value": "4",
+          "band": "watch",
+          "comment": "We are tracking them and issuing warnings for every 4 damages -- that system and reminder to crew has helped seemingly, at least early on"
+        },
+        {
+          "key": "dive:safety",
+          "label": "Driver Safety",
+          "kind": "dive",
+          "value": "86",
+          "band": "g",
+          "comment": "Jaylon has the lowest driving score but has not been driving due to injury for almost 1.5 months"
+        },
+        {
+          "key": "dive:estimate",
+          "label": "Estimate-to-Actual",
+          "kind": "dive",
+          "value": "18%",
+          "band": "g",
+          "comment": "This is a low priority, but keeping an eye on moves going long and jobs we are quoting/others are mis-quoting potentially"
+        },
+        {
+          "key": "dive:ot",
+          "label": "Overtime",
+          "kind": "dive",
+          "value": "18.1%",
+          "band": "r",
+          "comment": "This is a Flex Goal for BM - just trying to stay on Rippling corrections daily so I can better access OT report and stay on top of guys working too many days"
+        },
+        {
+          "key": "dive:critical",
+          "label": "Critical Coaching Required",
+          "kind": "dive",
+          "value": "11",
+          "band": "r",
+          "comment": "Have talked with some in person, need to follow up with Calvin; for others we did the coaching -- not sure how to log it?"
+        }
+      ],
+      "commandWeek": "2026-09-07",
+      "lastWeekFocus": [
+        {
+          "description": "Update PL and issue warnings for 4+ damages",
+          "source": "From the sync for the week of August 31, 2026",
+          "completed": false,
+          "retrying": true,
+          "actions": "Changed warning metric mid-wek, need to determine those who need warning, issue them",
+          "note": ""
+        },
+        {
+          "description": "Determine OT metrics for flex goal -- aim for G/SG",
+          "source": "From the sync for the week of August 31, 2026",
+          "completed": true,
+          "retrying": null,
+          "actions": "",
+          "note": "Just came up with and added to Flex Goal QG/LIVE pulses"
+        }
+      ],
+      "thisWeekFocus": [
+        {
+          "description": "Get grasp and baseline on OT - determine past week's OT numbers, and have system daily to correct punches and check OT report before EOD",
+          "actions": "Calculate team's OT amount last week, check punches daily, check OT report by EOD"
+        }
+      ]
+    },
+    {
       "branchId": "garland",
       "branchName": "Garland",
       "managerId": "jack-davis",
