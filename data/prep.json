@@ -462,6 +462,157 @@
       ]
     },
     {
+      "branchId": "dallas",
+      "branchName": "Dallas",
+      "managerId": "landon-vaughan",
+      "managerName": "Landon Vaughan",
+      "role": "Ops",
+      "weekOf": "2026-09-07",
+      "priorWeekOf": "2026-08-31",
+      "submittedAt": "2026-09-08T16:40:05.687Z",
+      "goals": [
+        {
+          "goalId": 1,
+          "goalName": "Mover Training App",
+          "statusAtPrep": "red",
+          "selfStatus": "red",
+          "lastWeekActions": "Continued to make announcements in the morning, but also harped on it when I went into the field to do onsites with Tabi.",
+          "thisWeekPlan": "I'm going to make them do it in front of me while I'm there onsite so there isn't any confusion or way to explain their way out of not being able to get it knocked out moving forward."
+        },
+        {
+          "goalId": 2,
+          "goalName": "Individual Sales Goal",
+          "statusAtPrep": "red",
+          "selfStatus": "red",
+          "lastWeekActions": "Stayed locked in during my blocks, just didn't execute.",
+          "thisWeekPlan": "Jumping onto sales during my admin blocks today & tomorrow."
+        },
+        {
+          "goalId": 3,
+          "goalName": "Scrum University",
+          "statusAtPrep": "blocked",
+          "selfStatus": null,
+          "lastWeekActions": "NA",
+          "thisWeekPlan": "NA"
+        },
+        {
+          "goalId": 4,
+          "goalName": "Fleet Games Accountability",
+          "statusAtPrep": "green",
+          "selfStatus": "super_green",
+          "lastWeekActions": "Continued to send pings to guys with explanations via Slack as they come through to Samsara. Also trying to get guys in the office with poor driving habits to go into further detail about why their habits are causing them to get pinged.",
+          "thisWeekPlan": "I'm just going to continue what has seemed to be working for us so far in the quarter."
+        },
+        {
+          "goalId": 5,
+          "goalName": "OPS Flex Goal (Reduce Damages)",
+          "statusAtPrep": "red",
+          "selfStatus": "green",
+          "lastWeekActions": "Went out on multiple onsite evals with Tabi to try to provide some training for newer guys stepping into the lead role, and getting eyes on multiple repeat damagers jobs to see if there are any trends to identify.",
+          "thisWeekPlan": "I think the approach last week worked, but I'm working out a way to be able to identify the trends I see & go over them at Training Day with the entire team to give insight."
+        }
+      ],
+      "commandCenter": [
+        {
+          "key": "tile:branchSales",
+          "label": "Branch Sales",
+          "kind": "tile",
+          "value": "97%",
+          "band": "g",
+          "comment": "Super solid week 4 going over 100%"
+        },
+        {
+          "key": "tile:indivSales",
+          "label": "Individual Sales",
+          "kind": "tile",
+          "value": "49%",
+          "band": "r",
+          "comment": "Low call & lead volume during afternoon sales blocks, but I'm just going to start hopping on in the morning during my double admin days."
+        },
+        {
+          "key": "tile:games",
+          "label": "Einstein Games",
+          "kind": "tile",
+          "value": "6.2 / 13",
+          "band": "watch",
+          "comment": "We've taken the biggest hit on damages & reviews. The only way to salvage the score at this point is to push hard on reviews & avoid piling onto this horrendous quarter thus far for damages."
+        },
+        {
+          "key": "dive:nps",
+          "label": "Customer NPS",
+          "kind": "dive",
+          "value": "87",
+          "band": "r",
+          "comment": "We've had a lot of 0s in recent months. Need to just get a lot of 10s to bounce it back. We did get a lot of 10's last week with no 0's & our score hasn't changed though."
+        },
+        {
+          "key": "dive:damages",
+          "label": "Damages",
+          "kind": "dive",
+          "value": "4",
+          "band": "watch",
+          "comment": "All 3 are leads in training, not excusing it, but they are coming around. Cameron is the only one I'm concerned about, simply due to the volume of his damages thus far. Restructured the new damage warning system."
+        },
+        {
+          "key": "dive:safety",
+          "label": "Driver Safety",
+          "kind": "dive",
+          "value": "86",
+          "band": "g",
+          "comment": "Jaylon hasn't worked in 3 weeks & has low mileage so his score is skewed; he had the best score at the branch last quarter.\n\nCrawfish has received coaching & warnings & is back up to a 57 after taking a 33-point hit from an obstructed camera. He only has 4 total pings, but the weight of the obstructed camera costed him a lot."
+        },
+        {
+          "key": "dive:estimate",
+          "label": "Estimate-to-Actual",
+          "kind": "dive",
+          "value": "18%",
+          "band": "g",
+          "comment": "I would appreciate some guidance on what we could do to improve our estimate to actual."
+        },
+        {
+          "key": "dive:ot",
+          "label": "Overtime",
+          "kind": "dive",
+          "value": "18.1%",
+          "band": "r",
+          "comment": "BM tracking. Not allowing swaps before looking at hours on Rippling."
+        },
+        {
+          "key": "dive:critical",
+          "label": "Critical Coaching Required",
+          "kind": "dive",
+          "value": "11",
+          "band": "r",
+          "comment": "Jaylon hasn't worked, so I don't know how he is in the OT category, but I have zero concern that when he comes back, everything will be fine. He has never had any performance issues."
+        }
+      ],
+      "commandWeek": "2026-09-07",
+      "lastWeekFocus": [
+        {
+          "description": "Get spare keys from RUSH for multiple trucks",
+          "source": "From the sync for the week of August 31, 2026",
+          "completed": false,
+          "retrying": true,
+          "actions": "Calling Bubba today to get it knocked out.",
+          "note": ""
+        },
+        {
+          "description": "Replace tampered card readers",
+          "source": "From the sync for the week of August 31, 2026",
+          "completed": false,
+          "retrying": true,
+          "actions": "Card readers haven't come in the mail yet.",
+          "note": ""
+        }
+      ],
+      "thisWeekFocus": [
+        {
+          "description": "Get the new door knob installed on our office door.",
+          "actions": "I'm just going to do it during my morning admin tomorrow."
+        }
+      ]
+    },
+    {
       "branchId": "tampa",
       "branchName": "Tampa",
       "managerId": "shane-heaberlin",
