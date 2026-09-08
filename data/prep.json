@@ -609,6 +609,177 @@
       ]
     },
     {
+      "branchId": "mckinney",
+      "branchName": "McKinney",
+      "managerId": "khevan-dueck",
+      "managerName": "Khevan Dueck",
+      "role": "BM",
+      "weekOf": "2026-09-07",
+      "priorWeekOf": "2026-08-31",
+      "submittedAt": "2026-09-08T21:19:04.913Z",
+      "goals": [
+        {
+          "goalId": 1,
+          "goalName": "Mover Training App",
+          "statusAtPrep": "green",
+          "selfStatus": "green",
+          "lastWeekActions": "I made sure to follow up directly with any move that had not made progress since last time I pulled the app. Generally I am pulling it up at the huddle and shouting out people that have the most progress",
+          "thisWeekPlan": "Not sure there is much more I can do that what I have been doing. Being more of a hard ass with those who get locked out or have a velocity below 1 is an option"
+        },
+        {
+          "goalId": 2,
+          "goalName": "Individual Sales Goal",
+          "statusAtPrep": "green",
+          "selfStatus": "green",
+          "lastWeekActions": "This last week I actually fell off a bit with the influx of O3s on the app.",
+          "thisWeekPlan": "Honestly, the best I can do is dedicate time to my sales blocks and make sure that I book a move or two but my top priority is my team. I need to stay on top of the app and make sure nobody is at risk."
+        },
+        {
+          "goalId": 3,
+          "goalName": "Scrum University",
+          "statusAtPrep": "blocked",
+          "selfStatus": null,
+          "lastWeekActions": "",
+          "thisWeekPlan": ""
+        },
+        {
+          "goalId": 4,
+          "goalName": "Overall Games Accountability",
+          "statusAtPrep": "red",
+          "selfStatus": "green",
+          "lastWeekActions": "I have been focused on the training app more than anything else",
+          "thisWeekPlan": "My main focus has been the training app. The mover's are going to get overwhelmed if every single check in is for something new and it is going to backfire which is why my main focus is the training app. Its the QG and I would like to produce results there."
+        },
+        {
+          "goalId": 5,
+          "goalName": "BM Flex Goal",
+          "statusAtPrep": "red",
+          "selfStatus": "red",
+          "lastWeekActions": "I have not taken any further direct action outside of running direct payouts. I think the movers are most focused on the task at hand and will see the higest performers doing well in the app and not so much on reviews",
+          "thisWeekPlan": "I honestly am not sure how I can drive further results outside of adding more money to the pot"
+        }
+      ],
+      "commandCenter": [
+        {
+          "key": "tile:branchSales",
+          "label": "Branch Sales",
+          "kind": "tile",
+          "value": "87%",
+          "band": "watch",
+          "comment": "75% for the q"
+        },
+        {
+          "key": "tile:indivSales",
+          "label": "Individual Sales",
+          "kind": "tile",
+          "value": "7%",
+          "band": "r",
+          "comment": "72% for the q"
+        },
+        {
+          "key": "tile:hiring",
+          "label": "Hiring / Staffing",
+          "kind": "tile",
+          "value": "103.2%",
+          "band": "g",
+          "comment": "Green, cause is likely due to reduced need so our higher summer baseline has helped us maintain staffing with minimal hiring"
+        },
+        {
+          "key": "tile:games",
+          "label": "Einstein Games",
+          "kind": "tile",
+          "value": "6.8 / 13",
+          "band": "watch",
+          "comment": "Largely reviews are killing the score"
+        },
+        {
+          "key": "dive:nps",
+          "label": "Customer NPS",
+          "kind": "dive",
+          "value": "85",
+          "band": "r",
+          "comment": "Continue to reach out directly to detractors in a timely manner"
+        },
+        {
+          "key": "dive:damages",
+          "label": "Damages",
+          "kind": "dive",
+          "value": "1",
+          "band": "g",
+          "comment": "Not bad  numbers, I will follow up with the guys"
+        },
+        {
+          "key": "dive:safety",
+          "label": "Driver Safety",
+          "kind": "dive",
+          "value": "92",
+          "band": "g",
+          "comment": "Good score"
+        },
+        {
+          "key": "dive:estimate",
+          "label": "Estimate-to-Actual",
+          "kind": "dive",
+          "value": "24%",
+          "band": "g",
+          "comment": "Check in with Ross and Morales"
+        },
+        {
+          "key": "dive:ot",
+          "label": "Overtime",
+          "kind": "dive",
+          "value": "14.4%",
+          "band": "r",
+          "comment": "I will do better about checking OT report daily and using that to inform shift swaps"
+        },
+        {
+          "key": "dive:critical",
+          "label": "Critical Coaching Required",
+          "kind": "dive",
+          "value": "5",
+          "band": "r",
+          "comment": "That is on my for Shift swaps and OT"
+        }
+      ],
+      "commandWeek": "2026-09-07",
+      "lastWeekFocus": [
+        {
+          "description": "Set up new Xing iPad at home with reliable wifi",
+          "source": "From the sync for the week of August 31, 2026",
+          "completed": true,
+          "retrying": null,
+          "actions": "",
+          "note": ""
+        },
+        {
+          "description": "Ashleigh Ablets -- follow up multiple times, kick to CET by Friday 9/5",
+          "source": "From the sync for the week of August 31, 2026",
+          "completed": false,
+          "retrying": true,
+          "actions": "I spoke with her today 9/8 and she asked us to send a new link and split the payment, I will reach out by text tomorrow to check in",
+          "note": ""
+        },
+        {
+          "description": "Figure out why Rippling cards take so long to ship",
+          "source": "From the sync for the week of August 31, 2026",
+          "completed": true,
+          "retrying": null,
+          "actions": "",
+          "note": "I did not actually figure out why they are taking so long I just finally got them"
+        }
+      ],
+      "thisWeekFocus": [
+        {
+          "description": "Book $4k in sales",
+          "actions": "Reach out to leads outside of MCK"
+        },
+        {
+          "description": "Make sure Rippling works on XING iPad",
+          "actions": "Bug Mike about it a lot, or Anne if needed"
+        }
+      ]
+    },
+    {
       "branchId": "dallas",
       "branchName": "Dallas",
       "managerId": "landon-vaughan",
