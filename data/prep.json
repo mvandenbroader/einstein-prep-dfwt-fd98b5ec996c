@@ -166,6 +166,129 @@
     {
       "branchId": "tampa",
       "branchName": "Tampa",
+      "managerId": "shane-heaberlin",
+      "managerName": "Shane Heaberlin",
+      "role": "Ops",
+      "weekOf": "2026-09-07",
+      "priorWeekOf": "2026-08-31",
+      "submittedAt": "2026-09-08T15:01:07.448Z",
+      "goals": [
+        {
+          "goalId": 1,
+          "goalName": "Mover Training App",
+          "statusAtPrep": "green",
+          "selfStatus": "green",
+          "lastWeekActions": "Sitting down with the movers at the end of day, ensuring they had the proper support necessary to make as much progress as possible.",
+          "thisWeekPlan": "Focusing on app engagement during training day this week."
+        },
+        {
+          "goalId": 2,
+          "goalName": "Individual Sales Goal",
+          "statusAtPrep": "green",
+          "selfStatus": "green",
+          "lastWeekActions": "Keeping the Tampa line open outside of sales block and working lead triage during moments of down time.",
+          "thisWeekPlan": "Work lead triage more aggressively throughout week, explore leads outside of DFWT when applicable."
+        },
+        {
+          "goalId": 3,
+          "goalName": "Scrum University",
+          "statusAtPrep": "blocked",
+          "selfStatus": null,
+          "lastWeekActions": "",
+          "thisWeekPlan": ""
+        },
+        {
+          "goalId": 4,
+          "goalName": "Fleet Games Accountability",
+          "statusAtPrep": "super_green",
+          "selfStatus": "green",
+          "lastWeekActions": "For driving - Continued informal coaching, even in the absence of driving infraction, in order to keep driver safety at the forefront of everyone's minds. \nFor Damages - Continuing to enforce the standards for moves and ensuring the team understands why our SOP's are in place. As the volume of work has slowed down, and with the rollout of the mover training app, I'm spending more time on building \"brilliance in the basics\" and enforcing that \"hustle but don't rush\" mindset for the team. The recent downtrend in work volume isn't ideal, but it does leave us more wiggle room to ensure everything that we do is done at or above standard.",
+          "thisWeekPlan": "Continue informal coaching sessions during morning huddles, continue formal coaching conversations as issues arise, reinforce good habits and the \"why\" behind them."
+        },
+        {
+          "goalId": 5,
+          "goalName": "OPS Flex Goal",
+          "statusAtPrep": "green",
+          "selfStatus": "green",
+          "lastWeekActions": "Began a conversation with Wyngate Property about a project for October. 250+ units need to be relocated on-site for interior updates/ routine maintenance. Still in beginning stages of conversation, no negotiations have taken place yet, I requested more insight on what this project looks like for them in terms of deadlines and expeted work volume/cadence. Once we understand the expected volume and scheduling cadence, we can make sure we have the appropriate staffing and availability in place to support the property consistently.",
+          "thisWeekPlan": "Follow up with new and previously existing leads. Continue my search for other potential leads."
+        }
+      ],
+      "commandCenter": [
+        {
+          "key": "tile:branchSales",
+          "label": "Branch Sales",
+          "kind": "tile",
+          "value": "66%",
+          "band": "r",
+          "comment": "Exploring reasoning behind"
+        },
+        {
+          "key": "tile:indivSales",
+          "label": "Individual Sales",
+          "kind": "tile",
+          "value": "0%",
+          "band": "r",
+          "comment": "Down trend in leads for Tampa Bay shifted my focus to more follow up heavy approach to my sales pipeline, instead of an active involvement with the new leads in the lead triage.  While that is still a valuable process, I did experience a little tunnel vision last week and should have spread my efforts out more effectively. My approach this week is a consistent aggressive tempo on the lead triage, whenever applicable, not just days/times i'm on my sales block."
+        },
+        {
+          "key": "tile:hiring",
+          "label": "Hiring / Staffing",
+          "kind": "tile",
+          "value": "110%",
+          "band": "g",
+          "comment": "Direct result of heavy staffing efforts from last quarter, and consistent focus on employee retention, especially during our slow down period. I'm spending time making sure I have a pulse on the teams moral, where everyone's head is at, and ensuring I can meet their needs to the best of my ability."
+        },
+        {
+          "key": "tile:games",
+          "label": "Einstein Games",
+          "kind": "tile",
+          "value": "9.8 / 13",
+          "band": "g",
+          "comment": "I'am extremely satisfied with the teams performance. Due to low hours, minor infractions become very big black eyes right now. I think the team does a great job upholding the standard, I will continue to reiterate the importance of our standards and the why behind them. I do need to include that with hours being the way they are currently, the little things matter now more than ever. Not just because we have more time to address them, but because the the impact is far more severe."
+        },
+        {
+          "key": "dive:ot",
+          "label": "Overtime",
+          "kind": "dive",
+          "value": "13.5%",
+          "band": "r",
+          "comment": "I will have to research this with Steve. There's 0 reason anyone should have any overtime right now, we haven't even come close to the billable hours the last two weeks to facilitate anyone having OT."
+        }
+      ],
+      "commandWeek": "2026-09-07",
+      "lastWeekFocus": [
+        {
+          "description": "Get ahead of curve on weekly sales goal ($4,400)",
+          "source": "From the sync for the week of August 31, 2026",
+          "completed": false,
+          "retrying": true,
+          "actions": "Shift focus from lead follow up for tampa back to broad range lead triage sales.",
+          "note": ""
+        },
+        {
+          "description": "Schedule IPMs with Cora and MAV property directors for flex goal",
+          "source": "From the sync for the week of August 31, 2026",
+          "completed": false,
+          "retrying": true,
+          "actions": "Focus on kicking the ball forward with this this week. I put this on the back burner last week during Paul's visit.",
+          "note": ""
+        }
+      ],
+      "thisWeekFocus": [
+        {
+          "description": "Submit 5.5k in issued business to cover the gap for last week.",
+          "actions": "Shift focus from lead follow up for tampa back to broad range lead triage sales."
+        },
+        {
+          "description": "One form of contact following up with these properties (Preferably a phone call) this week",
+          "actions": "Shifting focus back to this goal and identifying whether I need to disposition these properties as a potential \"later opportunity\" or not."
+        }
+      ]
+    },
+    {
+      "branchId": "tampa",
+      "branchName": "Tampa",
       "managerId": "steven-anderson",
       "managerName": "Steven Anderson",
       "role": "BM",
