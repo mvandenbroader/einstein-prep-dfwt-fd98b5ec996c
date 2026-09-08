@@ -706,6 +706,161 @@
           "actions": "Shane and I will stay on top of the guys and ensure that they complete next stage of training."
         }
       ]
+    },
+    {
+      "branchId": "dallas",
+      "branchName": "Dallas",
+      "managerId": "tabi-enoh",
+      "managerName": "Tabi Enoh",
+      "role": "FM",
+      "weekOf": "2026-09-07",
+      "priorWeekOf": "2026-08-31",
+      "submittedAt": "2026-09-08T16:13:19.869Z",
+      "goals": [
+        {
+          "goalId": 1,
+          "goalName": "Mover Training App",
+          "statusAtPrep": "red",
+          "selfStatus": "green",
+          "lastWeekActions": "Remind crew each morning about the training app. \nSent out reminders in slack to working crew that day about training app progression.",
+          "thisWeekPlan": "Sending reminders about training app progress. \nCoaching crews that come back early through the training app."
+        },
+        {
+          "goalId": 2,
+          "goalName": "Individual Sales Goal",
+          "statusAtPrep": "blocked",
+          "selfStatus": null,
+          "lastWeekActions": "NA",
+          "thisWeekPlan": "NA"
+        },
+        {
+          "goalId": 3,
+          "goalName": "Scrum University",
+          "statusAtPrep": "blocked",
+          "selfStatus": null,
+          "lastWeekActions": "NA",
+          "thisWeekPlan": "NA"
+        },
+        {
+          "goalId": 4,
+          "goalName": "Damages + Reviews Games Accountability",
+          "statusAtPrep": "red",
+          "selfStatus": "red",
+          "lastWeekActions": "Direct coaching with high damagers.",
+          "thisWeekPlan": "Day by day check-ins with the crew after the job. \nCoaching redirects with the top damagers for the month.  \nStarting to implement early identification system for high-risk movers."
+        },
+        {
+          "goalId": 5,
+          "goalName": "FM Flex Goal",
+          "statusAtPrep": "green",
+          "selfStatus": "green",
+          "lastWeekActions": "Write up at least 3 praises by the end of week.",
+          "thisWeekPlan": "Increase my praise goal of 3 a week to 3-5 a week."
+        }
+      ],
+      "commandCenter": [
+        {
+          "key": "tile:branchSales",
+          "label": "Branch Sales",
+          "kind": "tile",
+          "value": "97%",
+          "band": "g",
+          "comment": "Not involved as FM"
+        },
+        {
+          "key": "tile:indivSales",
+          "label": "Individual Sales",
+          "kind": "tile",
+          "value": "49%",
+          "band": "r",
+          "comment": "Not involved as FM"
+        },
+        {
+          "key": "tile:games",
+          "label": "Einstein Games",
+          "kind": "tile",
+          "value": "6.2 / 13",
+          "band": "watch",
+          "comment": "Push the crew to get reviews and start to send out damage warnings to high-risk movers."
+        },
+        {
+          "key": "dive:nps",
+          "label": "Customer NPS",
+          "kind": "dive",
+          "value": "87",
+          "band": "r",
+          "comment": "Implementing  a new damage system to reduce damage costs and increase NPS scores."
+        },
+        {
+          "key": "dive:damages",
+          "label": "Damages",
+          "kind": "dive",
+          "value": "4",
+          "band": "watch",
+          "comment": "Implementation of a new damage warning system. \nThe new damage system should catch high damage trends in individual movers."
+        },
+        {
+          "key": "dive:safety",
+          "label": "Driver Safety",
+          "kind": "dive",
+          "value": "86",
+          "band": "g",
+          "comment": "Critical coaching with low driving safety."
+        },
+        {
+          "key": "dive:estimate",
+          "label": "Estimate-to-Actual",
+          "kind": "dive",
+          "value": "18%",
+          "band": "g",
+          "comment": "Currently not tracking."
+        },
+        {
+          "key": "dive:ot",
+          "label": "Overtime",
+          "kind": "dive",
+          "value": "18.1%",
+          "band": "r",
+          "comment": "BM tracking."
+        },
+        {
+          "key": "dive:critical",
+          "label": "Critical Coaching Required",
+          "kind": "dive",
+          "value": "11",
+          "band": "r",
+          "comment": "Direct critical coaching with Aleks Lona."
+        }
+      ],
+      "commandWeek": "2026-09-07",
+      "lastWeekFocus": [
+        {
+          "description": "Develop damage/warning system with BM -- issue first warnings",
+          "source": "From the sync for the week of August 31, 2026",
+          "completed": true,
+          "retrying": null,
+          "actions": "",
+          "note": "Agreed on a new standard when it comes to damage trends."
+        },
+        {
+          "description": "Continue 3+ praises per week for flex goal",
+          "source": "From the sync for the week of August 31, 2026",
+          "completed": true,
+          "retrying": null,
+          "actions": "",
+          "note": "Each week write up 3 praises"
+        }
+      ],
+      "thisWeekFocus": [
+        {
+          "description": "Praise",
+          "actions": "Write up 3-5 praises by the end of the week."
+        },
+        {
+          "description": "Training app progress",
+          "actions": "Start to issue out warning for training app inactivity."
+        }
+      ]
     }
   ]
 }
