@@ -154,6 +154,153 @@
     {
       "branchId": "fort-worth",
       "branchName": "Fort Worth",
+      "managerId": "erik-orama",
+      "managerName": "Erik Orama",
+      "role": "Ops",
+      "weekOf": "2026-09-07",
+      "priorWeekOf": "2026-08-31",
+      "submittedAt": "2026-09-08T17:17:58.235Z",
+      "goals": [
+        {
+          "goalId": 1,
+          "goalName": "Mover Training App",
+          "statusAtPrep": "red",
+          "selfStatus": "red",
+          "lastWeekActions": "Bring guys into the office to run through training and send reminders on Slack while they're in the field.",
+          "thisWeekPlan": "Conducting on-site evals and continuing the messaging we have going on as reminders to fill out their books."
+        },
+        {
+          "goalId": 2,
+          "goalName": "Individual Sales Goal",
+          "statusAtPrep": "red",
+          "selfStatus": "red",
+          "lastWeekActions": "Took action. I need to make up for falling short in August but I am on track to do so in September - currently at 70% this month which is where I finished in August.",
+          "thisWeekPlan": "Utilizing downtime to make sales or catch overflow calls."
+        },
+        {
+          "goalId": 3,
+          "goalName": "Scrum University",
+          "statusAtPrep": "blocked",
+          "selfStatus": null,
+          "lastWeekActions": "",
+          "thisWeekPlan": ""
+        },
+        {
+          "goalId": 4,
+          "goalName": "Fleet Games Accountability",
+          "statusAtPrep": "super_green",
+          "selfStatus": "super_green",
+          "lastWeekActions": "Monitor driver dashboard and Samsara to deliver praise/redirects (if needed) based on performance",
+          "thisWeekPlan": "Continuing with the same approach; we are currently at an 11 AVG for the quarter in terms of branch driver score."
+        },
+        {
+          "goalId": 5,
+          "goalName": "OPS Flex Goal",
+          "statusAtPrep": "red",
+          "selfStatus": "green",
+          "lastWeekActions": "Persistent messaging in the morning huddle regarding our need for reviews - coaching convos with low performers",
+          "thisWeekPlan": "This week, as we transition into the slower season, the plan is to place emphasis on the importance of reviews. They have a direct impact on customer influx, which turns into slow-season hours."
+        }
+      ],
+      "commandCenter": [
+        {
+          "key": "tile:branchSales",
+          "label": "Branch Sales",
+          "kind": "tile",
+          "value": "74%",
+          "band": "watch",
+          "comment": "The quarter is still young! We are here because I fell short in month 1. This week I am in dawg mode and will look to complete my September goal so that I can spend the rest of the month catching up and working towards my quarterly total."
+        },
+        {
+          "key": "tile:indivSales",
+          "label": "Individual Sales",
+          "kind": "tile",
+          "value": "45%",
+          "band": "r",
+          "comment": "This is inaccurate - I'm at 70.58% of my goal for September. This week, I am utilizing free time to catch up/move towards my quarterly goal."
+        },
+        {
+          "key": "tile:games",
+          "label": "Einstein Games",
+          "kind": "tile",
+          "value": "8.2 / 13",
+          "band": "g",
+          "comment": "We are suffering in the damage department, but everything else looks great, which is why we are green. As the quarter moves on, this will balance out."
+        },
+        {
+          "key": "dive:nps",
+          "label": "Customer NPS",
+          "kind": "dive",
+          "value": "72",
+          "band": "r",
+          "comment": "We've had a few customers upset about a job running over, and that ties into some major damages. \nThis week, the focus is getting out on-site to make sure we are maintaining efficiency"
+        },
+        {
+          "key": "dive:damages",
+          "label": "Damages",
+          "kind": "dive",
+          "value": "3",
+          "band": "watch",
+          "comment": "We have had some big slip-ups, but that is turning around. Currently coaching the guys on hustling and not rushing while also using CAD."
+        },
+        {
+          "key": "dive:estimate",
+          "label": "Estimate-to-Actual",
+          "kind": "dive",
+          "value": "44%",
+          "band": "r",
+          "comment": "Sometimes we show up, and the move is just drastically different than we had anticipated - the major coaching point here is encouraging and teaching the guys about adjusting estimates."
+        },
+        {
+          "key": "dive:ot",
+          "label": "Overtime",
+          "kind": "dive",
+          "value": "0.0%",
+          "band": "g",
+          "comment": "Golden - this is 100% Grant's wheelhouse - I simply check with him or look at hours before approving swaps or making schedule changes."
+        },
+        {
+          "key": "dive:critical",
+          "label": "Critical Coaching Required",
+          "kind": "dive",
+          "value": "3",
+          "band": "r",
+          "comment": "Sometimes we show up, and the move is just drastically different than we had anticipated - the major coaching point here is encouraging and teaching the guys about adjusting estimates. \nWe have had some big slip-ups, but that is turning around. Currently coaching the guys on hustling and not rushing while also using CAD."
+        }
+      ],
+      "commandWeek": "2026-09-07",
+      "lastWeekFocus": [
+        {
+          "description": "Exceed weekly sales goal ($6,000+)",
+          "source": "From the sync for the week of August 31, 2026",
+          "completed": true,
+          "retrying": null,
+          "actions": "",
+          "note": ""
+        },
+        {
+          "description": "Coach team into receiving 4 reviews this week (live action review scenarios)",
+          "source": "From the sync for the week of August 31, 2026",
+          "completed": true,
+          "retrying": null,
+          "actions": "",
+          "note": ""
+        }
+      ],
+      "thisWeekFocus": [
+        {
+          "description": "Catching up to where I should be with my quarterly goal for sales",
+          "actions": "Utilize free time to jump on sales and open my lines as well as prioritize larger moves"
+        },
+        {
+          "description": "Deliver a minimum of 5 praise",
+          "actions": "Stop writing them down, start typing them up, and make sure they are delivered in person  or on the phone. \nSometimes I'll praise a guy in real time and just forget to log it."
+        }
+      ]
+    },
+    {
+      "branchId": "fort-worth",
+      "branchName": "Fort Worth",
       "managerId": "grant-hardison",
       "managerName": "Grant Hardison",
       "role": "BM",
