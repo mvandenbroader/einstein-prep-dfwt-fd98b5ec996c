@@ -1,6 +1,169 @@
 {
   "submissions": [
     {
+      "branchId": "garland",
+      "branchName": "Garland",
+      "managerId": "jack-davis",
+      "managerName": "Jack Davis",
+      "role": "BM",
+      "weekOf": "2026-09-07",
+      "priorWeekOf": "2026-08-31",
+      "submittedAt": "2026-09-08T14:24:23.575Z",
+      "goals": [
+        {
+          "goalId": 1,
+          "goalName": "Mover Training App",
+          "statusAtPrep": "green",
+          "selfStatus": "green",
+          "lastWeekActions": "Fell behind; I did not make meaningful progress on the training app. Very few jobs didnt help.",
+          "thisWeekPlan": "Doing a full reset/fresh start on the training app for training day. Going to spend alot of time going through the app and doing mock training. Can still hit G/SG by EOQ"
+        },
+        {
+          "goalId": 2,
+          "goalName": "Individual Sales Goal",
+          "statusAtPrep": "super_green",
+          "selfStatus": "super_green",
+          "lastWeekActions": "Completed sales blocks per usual; slow week but I have hit my SG for the quarter already",
+          "thisWeekPlan": "Hitting both sales blocks and constant follow up on Garland leads to keep us busy"
+        },
+        {
+          "goalId": 3,
+          "goalName": "Scrum University",
+          "statusAtPrep": "blocked",
+          "selfStatus": null,
+          "lastWeekActions": "Unable to start",
+          "thisWeekPlan": "Still unable to start"
+        },
+        {
+          "goalId": 4,
+          "goalName": "Overall Games Accountability",
+          "statusAtPrep": "green",
+          "selfStatus": "green",
+          "lastWeekActions": "Started going over games scores again in the morning huddles, keeping everyone engaged. Again, slow week, easy to maintain everything. Warnings issued to low performers. Averaging over 7 as of now.",
+          "thisWeekPlan": "Reinforcing the late policy to tighten up our attendance scores. Getting more jobs on the schedule so we can get more hours for the guys to score in"
+        },
+        {
+          "goalId": 5,
+          "goalName": "BM Flex Goal",
+          "statusAtPrep": "super_green",
+          "selfStatus": "super_green",
+          "lastWeekActions": "Shouted out each review in slack as they came in and kept a running tally for the guys to compete against.",
+          "thisWeekPlan": "Rewarding the August winners, and praising the team at training day for ramping up the reviews so fast. Should be on pace for SG now"
+        }
+      ],
+      "commandCenter": [
+        {
+          "key": "tile:branchSales",
+          "label": "Branch Sales",
+          "kind": "tile",
+          "value": "98%",
+          "band": "g",
+          "comment": "This looks good for the lack of leads and inbound calls. Constantly monitoring the lead inbox for big Moves"
+        },
+        {
+          "key": "tile:indivSales",
+          "label": "Individual Sales",
+          "kind": "tile",
+          "value": "0%",
+          "band": "r",
+          "comment": "Slow week combined with 2 sick days and a holiday on my sales block day. Only need to book a few moves to hit Green, trying to land a few big moves this week"
+        },
+        {
+          "key": "tile:praise",
+          "label": "Praise / Recognition",
+          "kind": "tile",
+          "value": "83%",
+          "band": "watch",
+          "comment": "Fell behind last week due to sick days and lack of seeing people in office. Will be spreading lots of praise on TD and logging this week."
+        },
+        {
+          "key": "tile:games",
+          "label": "Einstein Games",
+          "kind": "tile",
+          "value": "9.2 / 13",
+          "band": "g",
+          "comment": "Doing awesome. Few jobs are allowing us to execute and tighten things up. Boosting our review scores is paying off"
+        },
+        {
+          "key": "dive:nps",
+          "label": "Customer NPS",
+          "kind": "dive",
+          "value": "87",
+          "band": "r",
+          "comment": "1 negative NPS review with no context. Customer did not answer my calls for context. Move was very underquoted and we gave alot of free support, but I think the customer is still upset with cost. \n\n1 \"negative\" as an 8, had a small damage so customer did not feel it could be 10/10 but loved us.\n\nNeed to get more NPS reviews, but we have been increasing the public 5 star reviews!"
+        },
+        {
+          "key": "dive:damages",
+          "label": "Damages",
+          "kind": "dive",
+          "value": "1",
+          "band": "g",
+          "comment": "Stupid driving mistake causing one large damage. Corrected. Lack of jobs makes it easier to maintain low damages. Doing extensive training at TD to reiterate standards"
+        },
+        {
+          "key": "dive:safety",
+          "label": "Driver Safety",
+          "kind": "dive",
+          "value": "88",
+          "band": "g",
+          "comment": "Newer drivers bringing the score down, have received coaching and each of them are slowly increasing their scores. Going over driving scores at TD"
+        },
+        {
+          "key": "dive:estimate",
+          "label": "Estimate-to-Actual",
+          "kind": "dive",
+          "value": "25%",
+          "band": "watch",
+          "comment": "Cane is steady but a little slow, combined with some ambitious quotes in highrise apartments. Estimates went over, but customers were understanding. Training at TD will help imrpove everyones standards"
+        },
+        {
+          "key": "dive:ot",
+          "label": "Overtime",
+          "kind": "dive",
+          "value": "0.0%",
+          "band": "g",
+          "comment": "GTG, lack of jobs on this front. Not enough jobs for OT this week"
+        },
+        {
+          "key": "dive:critical",
+          "label": "Critical Coaching Required",
+          "kind": "dive",
+          "value": "2",
+          "band": "watch",
+          "comment": "Brand new driver. Just some silly mistakes when driving in parking lots/slow streets. Had a serious convo and issued warnings on rippling. He is steadily improving since then"
+        }
+      ],
+      "commandWeek": "2026-09-07",
+      "lastWeekFocus": [
+        {
+          "description": "Onboard Jacob Boger",
+          "source": "From the sync for the week of August 31, 2026",
+          "completed": true,
+          "retrying": null,
+          "actions": "",
+          "note": ""
+        },
+        {
+          "description": "Get a jump on September sales goal",
+          "source": "From the sync for the week of August 31, 2026",
+          "completed": false,
+          "retrying": true,
+          "actions": "Need to hit 50% Sept. target",
+          "note": ""
+        }
+      ],
+      "thisWeekFocus": [
+        {
+          "description": "Book 2 big moves",
+          "actions": "Monitoring new leads, keeping phone lines on, and selling!"
+        },
+        {
+          "description": "Everyone through pre-reqs and done with sprints 1&2",
+          "actions": "Extra training at TD and going through the app with them on TD"
+        }
+      ]
+    },
+    {
       "branchId": "tampa",
       "branchName": "Tampa",
       "managerId": "steven-anderson",
