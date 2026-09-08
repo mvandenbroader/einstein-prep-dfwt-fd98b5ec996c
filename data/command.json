@@ -1,0 +1,514 @@
+{
+  "meta": {
+    "generatedFor": "2026-09-07",
+    "source": "Q3 Regional A+ Push/snapshots/progression.json"
+  },
+  "branches": {
+    "dallas": {
+      "meta": {
+        "branchId": "dallas",
+        "branchName": "Dallas",
+        "week": "2026-09-07",
+        "window": "Aug 1\u2013Sep 6 (wk 5 of 13) \u00b7 sales September MTD \u00b7 OT Aug 29\u2013Sep 4",
+        "source": "Q3 Regional A+ Push/snapshots/progression.json",
+        "rule": "Everything here is short of Super Green. Every manager at the branch answers all of it."
+      },
+      "items": [
+        {
+          "key": "tile:branchSales",
+          "kind": "tile",
+          "label": "Branch Sales",
+          "value": "97%",
+          "band": "g",
+          "why": "Branch % to the EMMA month target. Last week: 106%.",
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/#dal"
+        },
+        {
+          "key": "tile:indivSales",
+          "kind": "tile",
+          "label": "Individual Sales",
+          "value": "49%",
+          "band": "r",
+          "why": "Manager team % to the EMMA month target. Last week: 72%.",
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/#dal"
+        },
+        {
+          "key": "tile:games",
+          "kind": "tile",
+          "label": "Einstein Games",
+          "value": "6.2 / 13",
+          "band": "watch",
+          "why": "Q3-to-date score out of 13. Last week: 6.8 / 13.",
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/#dal"
+        },
+        {
+          "key": "dive:nps",
+          "kind": "dive",
+          "label": "Customer NPS",
+          "value": "87",
+          "band": "r",
+          "why": "GatherUp headline NPS. Super Green is 95+, Green is 90-94. Last week: 87.",
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/drilldown-nps.html#dal"
+        },
+        {
+          "key": "dive:damages",
+          "kind": "dive",
+          "label": "Damages",
+          "value": "4",
+          "band": "watch",
+          "why": "Distinct moves with a damage claim this week. Last week: 13.",
+          "top": [
+            "Adrian Rojo 2",
+            "Hertzog 1",
+            "Richner 1"
+          ],
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/drilldown-damages.html#dal"
+        },
+        {
+          "key": "dive:safety",
+          "kind": "dive",
+          "label": "Driver Safety",
+          "value": "86",
+          "band": "g",
+          "why": "Branch Samsara score, Q3-to-date. Last week: 90.",
+          "top": [
+            "Jaylon Johnson 59",
+            "Calvin Dudley 31"
+          ],
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/drilldown-driver-safety.html#dal"
+        },
+        {
+          "key": "dive:estimate",
+          "kind": "dive",
+          "label": "Estimate-to-Actual",
+          "value": "18%",
+          "band": "g",
+          "why": "Share of this week's jobs that ran over estimate. Last week: 29%.",
+          "top": [
+            "Cruz Ventura 3",
+            "Cook 2"
+          ],
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/drilldown-estimate-to-actual.html#dal"
+        },
+        {
+          "key": "dive:ot",
+          "kind": "dive",
+          "label": "Overtime",
+          "value": "18.1%",
+          "band": "r",
+          "why": "OT as a share of hours, Sat-Fri payroll week. Last week: 25.0%.",
+          "top": [
+            "Dudley 60h",
+            "Halpin 37h",
+            "Nelson 34h"
+          ],
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/drilldown-ot.html#dal"
+        },
+        {
+          "key": "dive:critical",
+          "kind": "dive",
+          "label": "Critical Coaching Required",
+          "value": "11",
+          "band": "r",
+          "why": "Movers in the worst tier of 2+ categories, Q3-to-date. Last week: 10.",
+          "top": [
+            "Jaylon Johnson (all 4)",
+            "Calvin Dudley (safety+OT)",
+            "Morales-type clusters"
+          ],
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/drilldown-critical-coaching.html#dal"
+        }
+      ]
+    },
+    "mckinney": {
+      "meta": {
+        "branchId": "mckinney",
+        "branchName": "McKinney",
+        "week": "2026-09-07",
+        "window": "Aug 1\u2013Sep 6 (wk 5 of 13) \u00b7 sales September MTD \u00b7 OT Aug 29\u2013Sep 4",
+        "source": "Q3 Regional A+ Push/snapshots/progression.json",
+        "rule": "Everything here is short of Super Green. Every manager at the branch answers all of it."
+      },
+      "items": [
+        {
+          "key": "tile:branchSales",
+          "kind": "tile",
+          "label": "Branch Sales",
+          "value": "87%",
+          "band": "watch",
+          "why": "Branch % to the EMMA month target. Last week: 122%.",
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/#mck"
+        },
+        {
+          "key": "tile:indivSales",
+          "kind": "tile",
+          "label": "Individual Sales",
+          "value": "7%",
+          "band": "r",
+          "why": "Manager team % to the EMMA month target. Last week: 84%.",
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/#mck"
+        },
+        {
+          "key": "tile:hiring",
+          "kind": "tile",
+          "label": "Hiring / Staffing",
+          "value": "103.2%",
+          "band": "g",
+          "why": "FTE vs the current 2-week block goal. Last week: 107.4%.",
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/#mck"
+        },
+        {
+          "key": "tile:games",
+          "kind": "tile",
+          "label": "Einstein Games",
+          "value": "6.8 / 13",
+          "band": "watch",
+          "why": "Q3-to-date score out of 13. Last week: 6.6 / 13.",
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/#mck"
+        },
+        {
+          "key": "dive:nps",
+          "kind": "dive",
+          "label": "Customer NPS",
+          "value": "85",
+          "band": "r",
+          "why": "GatherUp headline NPS. Super Green is 95+, Green is 90-94. Last week: 84.",
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/drilldown-nps.html#mck"
+        },
+        {
+          "key": "dive:damages",
+          "kind": "dive",
+          "label": "Damages",
+          "value": "1",
+          "band": "g",
+          "why": "Distinct moves with a damage claim this week. Last week: 5.",
+          "top": [
+            "Ross 1",
+            "Randle 1"
+          ],
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/drilldown-damages.html#mck"
+        },
+        {
+          "key": "dive:safety",
+          "kind": "dive",
+          "label": "Driver Safety",
+          "value": "92",
+          "band": "g",
+          "why": "Branch Samsara score, Q3-to-date. Last week: 93.",
+          "top": [],
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/drilldown-driver-safety.html#mck"
+        },
+        {
+          "key": "dive:estimate",
+          "kind": "dive",
+          "label": "Estimate-to-Actual",
+          "value": "24%",
+          "band": "g",
+          "why": "Share of this week's jobs that ran over estimate. Last week: 22%.",
+          "top": [
+            "Ross 3",
+            "Morales 3"
+          ],
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/drilldown-estimate-to-actual.html#mck"
+        },
+        {
+          "key": "dive:ot",
+          "kind": "dive",
+          "label": "Overtime",
+          "value": "14.4%",
+          "band": "r",
+          "why": "OT as a share of hours, Sat-Fri payroll week. Last week: 9.0%.",
+          "top": [
+            "Barron 32h",
+            "Morales 31h"
+          ],
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/drilldown-ot.html#mck"
+        },
+        {
+          "key": "dive:critical",
+          "kind": "dive",
+          "label": "Critical Coaching Required",
+          "value": "5",
+          "band": "r",
+          "why": "Movers in the worst tier of 2+ categories, Q3-to-date. Last week: 2.",
+          "top": [
+            "Danny Morales",
+            "Carlos Barron"
+          ],
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/drilldown-critical-coaching.html#mck"
+        }
+      ]
+    },
+    "fort-worth": {
+      "meta": {
+        "branchId": "fort-worth",
+        "branchName": "Fort Worth",
+        "week": "2026-09-07",
+        "window": "Aug 1\u2013Sep 6 (wk 5 of 13) \u00b7 sales September MTD \u00b7 OT Aug 29\u2013Sep 4",
+        "source": "Q3 Regional A+ Push/snapshots/progression.json",
+        "rule": "Everything here is short of Super Green. Every manager at the branch answers all of it."
+      },
+      "items": [
+        {
+          "key": "tile:branchSales",
+          "kind": "tile",
+          "label": "Branch Sales",
+          "value": "74%",
+          "band": "watch",
+          "why": "Branch % to the EMMA month target. Last week: 89%.",
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/#fw"
+        },
+        {
+          "key": "tile:indivSales",
+          "kind": "tile",
+          "label": "Individual Sales",
+          "value": "45%",
+          "band": "r",
+          "why": "Manager team % to the EMMA month target. Last week: 84%.",
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/#fw"
+        },
+        {
+          "key": "tile:games",
+          "kind": "tile",
+          "label": "Einstein Games",
+          "value": "8.2 / 13",
+          "band": "g",
+          "why": "Q3-to-date score out of 13. Last week: 7.6 / 13.",
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/#fw"
+        },
+        {
+          "key": "dive:nps",
+          "kind": "dive",
+          "label": "Customer NPS",
+          "value": "72",
+          "band": "r",
+          "why": "GatherUp headline NPS. Super Green is 95+, Green is 90-94. Last week: 74.",
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/drilldown-nps.html#fw"
+        },
+        {
+          "key": "dive:damages",
+          "kind": "dive",
+          "label": "Damages",
+          "value": "3",
+          "band": "watch",
+          "why": "Distinct moves with a damage claim this week. Last week: 2.",
+          "top": [
+            "Padilla 1",
+            "Ruiz 1"
+          ],
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/drilldown-damages.html#fw"
+        },
+        {
+          "key": "dive:estimate",
+          "kind": "dive",
+          "label": "Estimate-to-Actual",
+          "value": "44%",
+          "band": "r",
+          "why": "Share of this week's jobs that ran over estimate. Last week: 34%.",
+          "top": [
+            "Ryder Bell 3",
+            "Ruiz 3"
+          ],
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/drilldown-estimate-to-actual.html#fw"
+        },
+        {
+          "key": "dive:ot",
+          "kind": "dive",
+          "label": "Overtime",
+          "value": "0.0%",
+          "band": "g",
+          "why": "OT as a share of hours, Sat-Fri payroll week. Last week: 3.6%.",
+          "top": [],
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/drilldown-ot.html#fw"
+        },
+        {
+          "key": "dive:critical",
+          "kind": "dive",
+          "label": "Critical Coaching Required",
+          "value": "3",
+          "band": "r",
+          "why": "Movers in the worst tier of 2+ categories, Q3-to-date. Last week: 0.",
+          "top": [
+            "Ryder Bell",
+            "Sullivan Lowe"
+          ],
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/drilldown-critical-coaching.html#fw"
+        }
+      ]
+    },
+    "garland": {
+      "meta": {
+        "branchId": "garland",
+        "branchName": "Garland",
+        "week": "2026-09-07",
+        "window": "Aug 1\u2013Sep 6 (wk 5 of 13) \u00b7 sales September MTD \u00b7 OT Aug 29\u2013Sep 4",
+        "source": "Q3 Regional A+ Push/snapshots/progression.json",
+        "rule": "Everything here is short of Super Green. Every manager at the branch answers all of it."
+      },
+      "items": [
+        {
+          "key": "tile:branchSales",
+          "kind": "tile",
+          "label": "Branch Sales",
+          "value": "98%",
+          "band": "g",
+          "why": "Branch % to the EMMA month target. Last week: 129%.",
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/#gar"
+        },
+        {
+          "key": "tile:indivSales",
+          "kind": "tile",
+          "label": "Individual Sales",
+          "value": "0%",
+          "band": "r",
+          "why": "Manager team % to the EMMA month target. Last week: 232%.",
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/#gar"
+        },
+        {
+          "key": "tile:praise",
+          "kind": "tile",
+          "label": "Praise / Recognition",
+          "value": "83%",
+          "band": "watch",
+          "why": "Q3 praise pace vs expected-to-date. Last week: 99%.",
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/#gar"
+        },
+        {
+          "key": "tile:games",
+          "kind": "tile",
+          "label": "Einstein Games",
+          "value": "9.2 / 13",
+          "band": "g",
+          "why": "Q3-to-date score out of 13. Last week: 8 / 13.",
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/#gar"
+        },
+        {
+          "key": "dive:nps",
+          "kind": "dive",
+          "label": "Customer NPS",
+          "value": "87",
+          "band": "r",
+          "why": "GatherUp headline NPS. Super Green is 95+, Green is 90-94. Last week: 90.",
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/drilldown-nps.html#gar"
+        },
+        {
+          "key": "dive:damages",
+          "kind": "dive",
+          "label": "Damages",
+          "value": "1",
+          "band": "g",
+          "why": "Distinct moves with a damage claim this week. Last week: 1.",
+          "top": [
+            "Case 1",
+            "Bourque 1"
+          ],
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/drilldown-damages.html#gar"
+        },
+        {
+          "key": "dive:safety",
+          "kind": "dive",
+          "label": "Driver Safety",
+          "value": "88",
+          "band": "g",
+          "why": "Branch Samsara score, Q3-to-date. Last week: 93.",
+          "top": [],
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/drilldown-driver-safety.html#gar"
+        },
+        {
+          "key": "dive:estimate",
+          "kind": "dive",
+          "label": "Estimate-to-Actual",
+          "value": "25%",
+          "band": "watch",
+          "why": "Share of this week's jobs that ran over estimate. Last week: 25%.",
+          "top": [
+            "Bourque 2"
+          ],
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/drilldown-estimate-to-actual.html#gar"
+        },
+        {
+          "key": "dive:ot",
+          "kind": "dive",
+          "label": "Overtime",
+          "value": "0.0%",
+          "band": "g",
+          "why": "OT as a share of hours, Sat-Fri payroll week. Last week: 8.4%.",
+          "top": [],
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/drilldown-ot.html#gar"
+        },
+        {
+          "key": "dive:critical",
+          "kind": "dive",
+          "label": "Critical Coaching Required",
+          "value": "2",
+          "band": "watch",
+          "why": "Movers in the worst tier of 2+ categories, Q3-to-date. Last week: 0.",
+          "top": [
+            "Mitch Staring"
+          ],
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/drilldown-critical-coaching.html#gar"
+        }
+      ]
+    },
+    "tampa": {
+      "meta": {
+        "branchId": "tampa",
+        "branchName": "Tampa",
+        "week": "2026-09-07",
+        "window": "Aug 1\u2013Sep 6 (wk 5 of 13) \u00b7 sales September MTD \u00b7 OT Aug 29\u2013Sep 4",
+        "source": "Q3 Regional A+ Push/snapshots/progression.json",
+        "rule": "Everything here is short of Super Green. Every manager at the branch answers all of it."
+      },
+      "items": [
+        {
+          "key": "tile:branchSales",
+          "kind": "tile",
+          "label": "Branch Sales",
+          "value": "66%",
+          "band": "r",
+          "why": "Branch % to the EMMA month target. Last week: 79%.",
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/#tpa"
+        },
+        {
+          "key": "tile:indivSales",
+          "kind": "tile",
+          "label": "Individual Sales",
+          "value": "0%",
+          "band": "r",
+          "why": "Manager team % to the EMMA month target. Last week: 62%.",
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/#tpa"
+        },
+        {
+          "key": "tile:hiring",
+          "kind": "tile",
+          "label": "Hiring / Staffing",
+          "value": "110%",
+          "band": "g",
+          "why": "FTE vs the current 2-week block goal. Last week: 100%.",
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/#tpa"
+        },
+        {
+          "key": "tile:games",
+          "kind": "tile",
+          "label": "Einstein Games",
+          "value": "9.8 / 13",
+          "band": "g",
+          "why": "Q3-to-date score out of 13. Last week: 10.2 / 13.",
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/#tpa"
+        },
+        {
+          "key": "dive:ot",
+          "kind": "dive",
+          "label": "Overtime",
+          "value": "13.5%",
+          "band": "r",
+          "why": "OT as a share of hours, Sat-Fri payroll week. Last week: 1.5%.",
+          "top": [
+            "Crilly 37h"
+          ],
+          "link": "https://mvandenbroader.github.io/einstein-dfwt-scorecard-0deb88cfbe24/drilldown-ot.html#tpa"
+        }
+      ]
+    }
+  }
+}
