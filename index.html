@@ -398,6 +398,21 @@ function esc(s) {
 
 function filled(s) { return String(s == null ? '' : s).trim().length >= MIN_CHARS; }
 
+// A JS string literal that is safe INSIDE a double-quoted HTML attribute.
+//
+// Never use JSON.stringify for this. It emits double quotes, which close the
+// attribute early: onclick="setSelf("1","green")" parses as onclick="setSelf("
+// plus a garbage attribute, the handler never binds, and the control silently
+// does nothing. That shipped once and cost every grade button and every
+// textarea in sections 1 and 2 (2026-09-08).
+//
+// Order matters: escape for JS first (backslash, then quote), then HTML-escape.
+// The parser decodes &#39; back to ' and the leading backslash keeps it inside
+// the literal.
+function jsq(v) {
+  return "'" + esc(String(v).replace(/\\/g, '\\\\').replace(/'/g, "\\'")) + "'";
+}
+
 function submissionFor(managerId, weekOf) {
   for (var i = 0; i < PREP.length; i++) {
     if (PREP[i].managerId === managerId && PREP[i].weekOf === weekOf) return PREP[i];
@@ -743,14 +758,14 @@ function render() {
       '<label>What I did last week to move this ' +
       (opt ? '<span class="hint">(blocked -- optional)</span>' : '') + '</label>' +
       '<textarea placeholder="Specific actions you took. Not a status -- what you actually did." ' +
-      'oninput="setGoal(' + JSON.stringify(String(g.id)) + ',\'lastWeekActions\',this)">' +
+      'oninput="setGoal(' + jsq(g.id) + ',' + jsq('lastWeekActions') + ',this)">' +
       esc(a.lastWeekActions) + '</textarea></div>';
 
     html += '<div class="field' + (ge.thisWeekPlan ? ' invalid' : '') + '">' +
       '<label>What I am doing this week to get or stay on track ' +
       (opt ? '<span class="hint">(blocked -- optional)</span>' : '') + '</label>' +
       '<textarea placeholder="The specific moves you are making this week." ' +
-      'oninput="setGoal(' + JSON.stringify(String(g.id)) + ',\'thisWeekPlan\',this)">' +
+      'oninput="setGoal(' + jsq(g.id) + ',' + jsq('thisWeekPlan') + ',this)">' +
       esc(a.thisWeekPlan) + '</textarea></div>';
 
     // -- self-grade. Each choice carries that goal's own written definition, so
@@ -770,7 +785,7 @@ function render() {
         var on = a.selfStatus === gr;
         var cls = gr === 'super_green' ? 'on-sg' : (gr === 'green' ? 'on-g' : 'on-r');
         html += '<button type="button" class="clsopt' + (on ? ' ' + cls : '') +
-          '" onclick="setSelf(' + JSON.stringify(String(g.id)) + ',' + JSON.stringify(gr) + ')">' +
+          '" onclick="setSelf(' + jsq(g.id) + ',' + jsq(gr) + ')">' +
           '<span class="clsname">' + esc(STATUS_LABELS[gr]) + '</span>' +
           '<span class="clsdef">' + esc(def) + '</span></button>';
       });
@@ -825,7 +840,7 @@ function render() {
       html += '<div class="field' + (bad ? ' invalid' : '') + '">' +
         '<label>Why it is here, and what you are doing about it this week</label>' +
         '<textarea placeholder="Name the cause and the specific move. Names, dates, numbers." ' +
-        'oninput="setCommand(' + JSON.stringify(String(it.key)) + ',this)">' +
+        'oninput="setCommand(' + jsq(it.key) + ',this)">' +
         esc(val) + '</textarea></div></div>';
     });
   }
