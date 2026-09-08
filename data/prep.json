@@ -152,6 +152,153 @@
       ]
     },
     {
+      "branchId": "fort-worth",
+      "branchName": "Fort Worth",
+      "managerId": "grant-hardison",
+      "managerName": "Grant Hardison",
+      "role": "BM",
+      "weekOf": "2026-09-07",
+      "priorWeekOf": "2026-08-31",
+      "submittedAt": "2026-09-08T15:58:53.553Z",
+      "goals": [
+        {
+          "goalId": 1,
+          "goalName": "Mover Training App",
+          "statusAtPrep": "green",
+          "selfStatus": "green",
+          "lastWeekActions": "Completed more in-office training and kept addressing the importance of the training app in the morning huddles. Knocking out onsite evals for movers also helped me remind them and train.",
+          "thisWeekPlan": "More onsite evals on movers to offer hands on training, and continue to address and require at least 2 pics everyday from everyone that works."
+        },
+        {
+          "goalId": 2,
+          "goalName": "Individual Sales Goal",
+          "statusAtPrep": "super_green",
+          "selfStatus": "super_green",
+          "lastWeekActions": "Jumped in on big leads early outside of my sales block. This helped me go 130% to goal in August so I am hoping for the same results in September.",
+          "thisWeekPlan": "I will continue to jump into large leads early, set up VW, and push to close more."
+        },
+        {
+          "goalId": 3,
+          "goalName": "Scrum University",
+          "statusAtPrep": "blocked",
+          "selfStatus": null,
+          "lastWeekActions": "",
+          "thisWeekPlan": ""
+        },
+        {
+          "goalId": 4,
+          "goalName": "Overall Games Accountability",
+          "statusAtPrep": "green",
+          "selfStatus": "super_green",
+          "lastWeekActions": "Not much outside of addressing reviews and damages with the team. We are getting better, and training/onsite have helped. We are sitting at 8.2 for the qrt right now and if we keep this up we will finish top 3 in the company. Damages are dragging us down, but we are trending in the right direction. We have already dropped over 1$/hr in damages (3.79/hr vs )",
+          "thisWeekPlan": "Continue to emphasize the importance of the game's scores, and remember that the team can not see their actual scores unless we tell them."
+        },
+        {
+          "goalId": 5,
+          "goalName": "BM Flex Goal",
+          "statusAtPrep": "red",
+          "selfStatus": "red",
+          "lastWeekActions": "2 on-sites out of 3 completed. However, with Erik pushing reviews, he has also helped me by completing a few on-sites on my behalf.",
+          "thisWeekPlan": "We are sitting at 7/25 on-sites completed, with the expectation of getting to 10 + total by the end of the week. The problem is the average score. We are sitting at 70 and need to have a quarterly average of 80 or higher and 25+ on-sites completed to reach green."
+        }
+      ],
+      "commandCenter": [
+        {
+          "key": "tile:branchSales",
+          "label": "Branch Sales",
+          "kind": "tile",
+          "value": "74%",
+          "band": "watch",
+          "comment": "The schedule is dead this week. Leads are drying up, and we are having trouble converting. I think we need to lower prices to $95 an hour Monday-Thursday and Charge $100/hr/mover Fri-Sun."
+        },
+        {
+          "key": "tile:indivSales",
+          "label": "Individual Sales",
+          "kind": "tile",
+          "value": "45%",
+          "band": "r",
+          "comment": "Not sure. Erik and I are both on pace to hit the goal this month."
+        },
+        {
+          "key": "tile:games",
+          "label": "Einstein Games",
+          "kind": "tile",
+          "value": "8.2 / 13",
+          "band": "g",
+          "comment": "We are trending in the right direction with damages and reviews are becoming a little ore common."
+        },
+        {
+          "key": "dive:nps",
+          "label": "Customer NPS",
+          "kind": "dive",
+          "value": "72",
+          "band": "r",
+          "comment": "New leads running jobs, a few mad clients, and a lack of pushing for a 10/10 NPS score, and instead going straight to the reviews. 4 more promoters needs to offset the 4 detractors."
+        },
+        {
+          "key": "dive:damages",
+          "label": "Damages",
+          "kind": "dive",
+          "value": "3",
+          "band": "watch",
+          "comment": "My guys have been on a heater when it comes to damages recently. Its trending downwards, and onsites are helping but I can not be everywhere all at once. We also have been pushing hard on the training book so that might be helping with the reduction we have been seeing."
+        },
+        {
+          "key": "dive:estimate",
+          "label": "Estimate-to-Actual",
+          "kind": "dive",
+          "value": "44%",
+          "band": "r",
+          "comment": "Ryder is a new lead who needs coaching all the time. He is not updating the actual contract on site, and instead he is only telling the clients it will take longer. Coaching will be provided so he knows to show the client the increase on the contract."
+        },
+        {
+          "key": "dive:ot",
+          "label": "Overtime",
+          "kind": "dive",
+          "value": "0.0%",
+          "band": "g",
+          "comment": "Lack of Jobs/ more hires made."
+        },
+        {
+          "key": "dive:critical",
+          "label": "Critical Coaching Required",
+          "kind": "dive",
+          "value": "3",
+          "band": "r",
+          "comment": "Ryder and Sully are new leads who are not updating the actual contract after the walkthrough. Coaching will be provided to ALL leads and that should drop this a bit."
+        }
+      ],
+      "commandWeek": "2026-09-07",
+      "lastWeekFocus": [
+        {
+          "description": "Knock out 3 onsites (combining with in-office mover training)",
+          "source": "From the sync for the week of August 31, 2026",
+          "completed": true,
+          "retrying": null,
+          "actions": "",
+          "note": "I did 2 and Erik did 2."
+        },
+        {
+          "description": "Reach 20% of weekly sales goal",
+          "source": "From the sync for the week of August 31, 2026",
+          "completed": true,
+          "retrying": null,
+          "actions": "",
+          "note": "I am at 49% and Erik is at 70% for the month of September"
+        }
+      ],
+      "thisWeekFocus": [
+        {
+          "description": "Onsite on Thursday and Friday",
+          "actions": "Complete onsite evals for all 4 moves on Thursday."
+        },
+        {
+          "description": "Complete onsite eval training on all movers that have onsites on them.",
+          "actions": "Take time at the end of each onsite to go over it with the lead (if time permits onsite) if not after the fact."
+        }
+      ]
+    },
+    {
       "branchId": "garland",
       "branchName": "Garland",
       "managerId": "jack-davis",
