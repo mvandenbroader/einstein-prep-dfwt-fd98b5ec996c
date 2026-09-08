@@ -1159,6 +1159,169 @@
           "actions": "Start to issue out warning for training app inactivity."
         }
       ]
+    },
+    {
+      "branchId": "mckinney",
+      "branchName": "McKinney",
+      "managerId": "zach-krodel",
+      "managerName": "Zach Krodel",
+      "role": "Ops",
+      "weekOf": "2026-09-07",
+      "priorWeekOf": "2026-08-31",
+      "submittedAt": "2026-09-08T21:12:45.405Z",
+      "goals": [
+        {
+          "goalId": 1,
+          "goalName": "Mover Training App",
+          "statusAtPrep": "not_started",
+          "selfStatus": "red",
+          "lastWeekActions": "Continued to issue warnings, remind guys at the huddle, check the app daily and send constant messages out.",
+          "thisWeekPlan": "Continuing to do the same thing and will likely put more messages in the watercooler channel."
+        },
+        {
+          "goalId": 2,
+          "goalName": "Individual Sales Goal",
+          "statusAtPrep": "red",
+          "selfStatus": "red",
+          "lastWeekActions": "Did sales during my sales block and some sales out of my sales block.",
+          "thisWeekPlan": "Doing sales during my sales block and some sales out of my sales block when time permits."
+        },
+        {
+          "goalId": 3,
+          "goalName": "Scrum University",
+          "statusAtPrep": "blocked",
+          "selfStatus": null,
+          "lastWeekActions": "None",
+          "thisWeekPlan": "None"
+        },
+        {
+          "goalId": 4,
+          "goalName": "Fleet Games Accountability",
+          "statusAtPrep": "blocked",
+          "selfStatus": null,
+          "lastWeekActions": "None",
+          "thisWeekPlan": "None"
+        },
+        {
+          "goalId": 5,
+          "goalName": "OPS Flex Goal",
+          "statusAtPrep": "not_started",
+          "selfStatus": "red",
+          "lastWeekActions": "This was defined last week, we just never huddled to update it.",
+          "thisWeekPlan": "Will wait on update."
+        }
+      ],
+      "commandCenter": [
+        {
+          "key": "tile:branchSales",
+          "label": "Branch Sales",
+          "kind": "tile",
+          "value": "87%",
+          "band": "watch",
+          "comment": "We are right there and it is only the 8th, seems like we will be fine."
+        },
+        {
+          "key": "tile:indivSales",
+          "label": "Individual Sales",
+          "kind": "tile",
+          "value": "7%",
+          "band": "r",
+          "comment": "We are slowing down significantly and more hands are in the pot than ever."
+        },
+        {
+          "key": "tile:hiring",
+          "label": "Hiring / Staffing",
+          "kind": "tile",
+          "value": "103.2%",
+          "band": "g",
+          "comment": "Looks like we are good here."
+        },
+        {
+          "key": "tile:games",
+          "label": "Einstein Games",
+          "kind": "tile",
+          "value": "6.8 / 13",
+          "band": "watch",
+          "comment": "Scores not confirmed accurate."
+        },
+        {
+          "key": "dive:nps",
+          "label": "Customer NPS",
+          "kind": "dive",
+          "value": "85",
+          "band": "r",
+          "comment": "Following up with customers who give us a low score to see how we can make them higher."
+        },
+        {
+          "key": "dive:damages",
+          "label": "Damages",
+          "kind": "dive",
+          "value": "1",
+          "band": "g",
+          "comment": "Nothing to report."
+        },
+        {
+          "key": "dive:safety",
+          "label": "Driver Safety",
+          "kind": "dive",
+          "value": "92",
+          "band": "g",
+          "comment": "Score looks great."
+        },
+        {
+          "key": "dive:estimate",
+          "label": "Estimate-to-Actual",
+          "kind": "dive",
+          "value": "24%",
+          "band": "g",
+          "comment": "Green, nothing to deep dive."
+        },
+        {
+          "key": "dive:ot",
+          "label": "Overtime",
+          "kind": "dive",
+          "value": "14.4%",
+          "band": "r",
+          "comment": "Call outs, RDO's and terminations."
+        },
+        {
+          "key": "dive:critical",
+          "label": "Critical Coaching Required",
+          "kind": "dive",
+          "value": "5",
+          "band": "r",
+          "comment": "Damages are not confirmed. Carlos is literally our best performer and upcoming mover."
+        }
+      ],
+      "commandWeek": "2026-09-07",
+      "lastWeekFocus": [
+        {
+          "description": "Define OPS flex goal (rollover)",
+          "source": "Still open from the week of August 17, 2026",
+          "completed": true,
+          "retrying": null,
+          "actions": "",
+          "note": "Replaced damaged/old card readers."
+        },
+        {
+          "description": "Hit ground running on mover training 8/20-21; brief absent movers (Sterling)",
+          "source": "Still open from the week of August 17, 2026",
+          "completed": true,
+          "retrying": null,
+          "actions": "",
+          "note": "Hit the ground running on mover training, briefed absent movers."
+        }
+      ],
+      "thisWeekFocus": [
+        {
+          "description": "Continue working on QG goals.",
+          "actions": "Do sales, hound guys on the training app, monitor Samsara and the training app."
+        },
+        {
+          "description": "Focus on doing my job to the best of my ability without constant new things popping up to take time away from it.",
+          "actions": "Not be distracted by weekly check-ins that take 1 hour to fill out once actual work has been completed."
+        }
+      ]
     }
   ]
 }
