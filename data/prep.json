@@ -1,3 +1,127 @@
 {
-  "submissions": []
+  "submissions": [
+    {
+      "branchId": "tampa",
+      "branchName": "Tampa",
+      "managerId": "steven-anderson",
+      "managerName": "Steven Anderson",
+      "role": "BM",
+      "weekOf": "2026-09-07",
+      "priorWeekOf": "2026-08-31",
+      "submittedAt": "2026-09-08T14:10:55.133Z",
+      "goals": [
+        {
+          "goalId": 1,
+          "goalName": "Mover Training App",
+          "statusAtPrep": "green",
+          "selfStatus": "super_green",
+          "lastWeekActions": "We were extremely low on hours and we had the guys come in so that we could do some in house training.",
+          "thisWeekPlan": "We are facing another issue this week with low hours. We will more than likely need to bring guys into the office to complete so training."
+        },
+        {
+          "goalId": 2,
+          "goalName": "Individual Sales Goal",
+          "statusAtPrep": "red",
+          "selfStatus": "red",
+          "lastWeekActions": "Stayed engage with the pipeline. Very limited leads available across the platform for me to turn into real opportunities.",
+          "thisWeekPlan": "This week the plan is the same stay engaged and try maximize every opportunity that presents itself."
+        },
+        {
+          "goalId": 3,
+          "goalName": "Scrum University",
+          "statusAtPrep": "blocked",
+          "selfStatus": null,
+          "lastWeekActions": "Last week I took the initiative  to update my board completely and all updates and pulses.",
+          "thisWeekPlan": "Staying on top of my board and ensuring that all updates are correct and accurate."
+        },
+        {
+          "goalId": 4,
+          "goalName": "Overall Games Accountability",
+          "statusAtPrep": "super_green",
+          "selfStatus": "super_green",
+          "lastWeekActions": "We had conversations with our low performers last week to ensure that corrective behavior is taking place.",
+          "thisWeekPlan": "No different than any other week constant coaching and staying engaged with the team on all fronts."
+        },
+        {
+          "goalId": 5,
+          "goalName": "BM Flex Goal",
+          "statusAtPrep": "green",
+          "selfStatus": "green",
+          "lastWeekActions": "Last week Paul and I visited ReadySpace and we really love the new facility. The plan is to hopefully agree to terms on lease and move in to the new office in the near future.",
+          "thisWeekPlan": "Mike and I plan to meet with Landlord this week and discuss getting out of our lease so that we can move into new facility. Lease is ready for us to sign we just need to figure out our current lease situation. We can move into the new facility is a month or less once new lease is signed."
+        }
+      ],
+      "commandCenter": [
+        {
+          "key": "tile:branchSales",
+          "label": "Branch Sales",
+          "kind": "tile",
+          "value": "66%",
+          "band": "r",
+          "comment": "I believe that the we currently here because the leads for the branch overall have dipped. We just don't have many leads to work off here in Tampa right now."
+        },
+        {
+          "key": "tile:indivSales",
+          "label": "Individual Sales",
+          "kind": "tile",
+          "value": "0%",
+          "band": "r",
+          "comment": "I am at a level 1 currently for sales if I can get trained on level 2 it would drastically help with numbers. I will continue to push through all the obstacles and continue to grind for results."
+        },
+        {
+          "key": "tile:hiring",
+          "label": "Hiring / Staffing",
+          "kind": "tile",
+          "value": "110%",
+          "band": "g",
+          "comment": "We have done a great job of staying on top of hiring and ensuring that we are properly staffed. We are currently fully staffed."
+        },
+        {
+          "key": "tile:games",
+          "label": "Einstein Games",
+          "kind": "tile",
+          "value": "9.8 / 13",
+          "band": "g",
+          "comment": "This is a testament to constant coaching and staying engaged with the team daily. We will not change this and continue to do this throughout the quarter."
+        },
+        {
+          "key": "dive:ot",
+          "label": "Overtime",
+          "kind": "dive",
+          "value": "13.5%",
+          "band": "r",
+          "comment": "We needed some help here around the office so it drove up some overtime. We will ensure to monitor hours this week to keep overtime numbers down."
+        }
+      ],
+      "commandWeek": "2026-09-07",
+      "lastWeekFocus": [
+        {
+          "description": "Get resolution on lease situation (new Tampa facility)",
+          "source": "From the sync for the week of August 31, 2026",
+          "completed": false,
+          "retrying": true,
+          "actions": "We are having a meeting with Landlord this week to discuss getting out the lease.",
+          "note": ""
+        },
+        {
+          "description": "Ensure team moves to next stage in Mover Training App",
+          "source": "From the sync for the week of August 31, 2026",
+          "completed": true,
+          "retrying": null,
+          "actions": "",
+          "note": "We made sure that we brought guys in to the office to ensure that the training was getting done."
+        }
+      ],
+      "thisWeekFocus": [
+        {
+          "description": "I would like to get payroll completed.",
+          "actions": "I will focus about 1 hour to ensure that it gets completed."
+        },
+        {
+          "description": "Ensure that movers move into next stage of training.",
+          "actions": "Shane and I will stay on top of the guys and ensure that they complete next stage of training."
+        }
+      ]
+    }
+  ]
 }
