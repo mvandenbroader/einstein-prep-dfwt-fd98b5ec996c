@@ -1,0 +1,378 @@
+{
+  "meta": {
+    "quarter": "Q3 2026",
+    "quarterEnd": "2026-10-31",
+    "generated": "2026-09-28",
+    "sourceLastGenerated": "2026-09-15T00:00:00",
+    "scope": "Non-BM managers only. Whitelisted fields. Public repo."
+  },
+  "directs": [
+    {
+      "id": "landon-vaughan",
+      "name": "Landon Vaughan",
+      "role": "Ops",
+      "roleLabel": "Operations Manager",
+      "branch": "dallas",
+      "branchName": "Dallas",
+      "bmName": "Chris Beattie",
+      "goals": [
+        {
+          "id": 1,
+          "name": "Mover Training App",
+          "thresholds": {
+            "superGreen": "100% manager sandbox by 8/19. 100% movers enrolled 8/20. 70%+ enrolled movers complete FULL pipeline (Lead Ready) by 10/19.",
+            "green": "100% manager sandbox by 8/19. 100% movers enrolled 8/20. 70%+ enrolled movers complete through stage 4 by EOQ.",
+            "red": "Less than 70% of enrolled movers complete through stage 4 by EOQ."
+          },
+          "status": "red",
+          "currentValue": "Red -- making movers do it in front of him on onsites",
+          "nextAction": "Enforce onsite completion -- movers do it in front of him",
+          "lastUpdated": "2026-09-08"
+        },
+        {
+          "id": 2,
+          "name": "Individual Sales Goal",
+          "thresholds": {
+            "superGreen": "110%+ to quarterly sales goal",
+            "green": "100%+ to quarterly sales goal",
+            "red": "Less than 100% to quarterly sales goal"
+          },
+          "status": "red",
+          "currentValue": "Red -- low call/lead volume, jumping on admin block sales",
+          "nextAction": "Jump on sales during morning admin blocks",
+          "lastUpdated": "2026-09-08"
+        },
+        {
+          "id": 3,
+          "name": "Scrum University",
+          "thresholds": {
+            "superGreen": "Scrum certification completed and 90+ grade on board scoring",
+            "green": "Scrum certification completed and 80+ grade on board scoring",
+            "red": "Any manager at branch not completed with scrum certification and/or board score below 80"
+          },
+          "status": "blocked",
+          "currentValue": "",
+          "nextAction": "Waiting on Brian",
+          "lastUpdated": "2026-09-08"
+        },
+        {
+          "id": 4,
+          "name": "Fleet Games Accountability",
+          "thresholds": {
+            "superGreen": "Branch Samsara score 8 or higher",
+            "green": "Branch Samsara score 7 or higher",
+            "red": "Branch Samsara score less than 7"
+          },
+          "status": "super_green",
+          "currentValue": "Self: SG -- Samsara coaching via Slack + in-office sessions with poor drivers",
+          "nextAction": "Continue Samsara ping coaching + in-office sessions",
+          "lastUpdated": "2026-09-08"
+        },
+        {
+          "id": 5,
+          "name": "OPS Flex Goal (Reduce Damages)",
+          "thresholds": {
+            "superGreen": "$30k or less in quarterly damages",
+            "green": "$30-40k in quarterly damages",
+            "red": "$40k or more in quarterly damages"
+          },
+          "status": "green",
+          "currentValue": "Self: Green -- onsite evals with Tabi, identifying damage trends",
+          "nextAction": "Compile damage trends for Training Day; continue onsites",
+          "lastUpdated": "2026-09-08"
+        }
+      ]
+    },
+    {
+      "id": "tabi-enoh",
+      "name": "Tabi Enoh",
+      "role": "FM",
+      "roleLabel": "Field Manager",
+      "branch": "dallas",
+      "branchName": "Dallas",
+      "bmName": "Chris Beattie",
+      "goals": [
+        {
+          "id": 1,
+          "name": "Mover Training App",
+          "thresholds": {
+            "superGreen": "100% manager sandbox by 8/19. 100% movers enrolled 8/20. 70%+ enrolled movers complete FULL pipeline (Lead Ready) by 10/19.",
+            "green": "100% manager sandbox by 8/19. 100% movers enrolled 8/20. 70%+ enrolled movers complete through stage 4 by EOQ.",
+            "red": "Less than 70% of enrolled movers complete through stage 4 by EOQ."
+          },
+          "status": "green",
+          "currentValue": "Self: Green -- daily morning reminders + Slack pushes, coaching early-return crews",
+          "nextAction": "Issue training app inactivity warnings; coach early-return crews",
+          "lastUpdated": "2026-09-08"
+        },
+        {
+          "id": 3,
+          "name": "Scrum University",
+          "thresholds": {
+            "superGreen": "Scrum certification completed and 90+ grade on board scoring",
+            "green": "Scrum certification completed and 80+ grade on board scoring",
+            "red": "Scrum certification incomplete and/or board score below 80"
+          },
+          "status": "blocked",
+          "currentValue": "",
+          "nextAction": "Waiting on Brian",
+          "lastUpdated": "2026-09-08"
+        },
+        {
+          "id": 4,
+          "name": "Damages + Reviews Games Accountability",
+          "thresholds": {
+            "superGreen": "Branch Damage and Review scores both 8 or higher",
+            "green": "Branch Damage and Review scores both 7 or higher",
+            "red": "Either Damage or Review score below 7"
+          },
+          "status": "red",
+          "currentValue": "Red -- direct coaching with high damagers, early ID system starting",
+          "nextAction": "Day-by-day job check-ins; coaching redirects top damagers; implement early ID system",
+          "lastUpdated": "2026-09-08"
+        },
+        {
+          "id": 5,
+          "name": "FM Flex Goal",
+          "thresholds": {
+            "superGreen": ">47 praises",
+            "green": "36+ praises (20-47 range)",
+            "red": "<20 praises"
+          },
+          "status": "green",
+          "currentValue": "Green -- increasing weekly target from 3 to 3-5 praises/week",
+          "nextAction": "Write 3-5 praises this week",
+          "lastUpdated": "2026-09-08"
+        }
+      ]
+    },
+    {
+      "id": "zach-krodel",
+      "name": "Zach Krodel",
+      "role": "Ops",
+      "roleLabel": "Operations Manager",
+      "branch": "mckinney",
+      "branchName": "McKinney",
+      "bmName": "Khevan Dueck",
+      "goals": [
+        {
+          "id": 1,
+          "name": "Mover Training App",
+          "thresholds": {
+            "superGreen": "100% manager sandbox by 8/19. 100% movers enrolled 8/20. 70%+ enrolled movers complete FULL pipeline (Lead Ready) by 10/19.",
+            "green": "100% manager sandbox by 8/19. 100% movers enrolled 8/20. 70%+ enrolled movers complete through stage 4 by EOQ.",
+            "red": "Less than 70% of enrolled movers complete through stage 4 by EOQ."
+          },
+          "status": "red",
+          "currentValue": "Red. Issuing warnings, daily huddle reminders, constant messages. Movers still behind.",
+          "nextAction": "Push watercooler channel messages; continue daily app checks + warnings",
+          "lastUpdated": "2026-09-08"
+        },
+        {
+          "id": 2,
+          "name": "Individual Sales Goal",
+          "thresholds": {
+            "superGreen": "110%+ to quarterly sales goal",
+            "green": "100%+ to quarterly sales goal",
+            "red": "Less than 100% to quarterly sales goal"
+          },
+          "status": "red",
+          "currentValue": "Red. Doing sales during and outside of sales blocks when time permits.",
+          "nextAction": "Sales during blocks + opportunistic; get concrete numbers for next check-in",
+          "lastUpdated": "2026-09-08"
+        },
+        {
+          "id": 3,
+          "name": "Scrum University",
+          "thresholds": {
+            "superGreen": "Scrum certification completed and 90+ grade on board scoring",
+            "green": "Scrum certification completed and 80+ grade on board scoring",
+            "red": "Any manager at branch not completed with scrum certification and/or board score below 80"
+          },
+          "status": "blocked",
+          "currentValue": "",
+          "nextAction": "Waiting on Brian",
+          "lastUpdated": "2026-09-08"
+        },
+        {
+          "id": 4,
+          "name": "Fleet Games Accountability",
+          "thresholds": {
+            "superGreen": "Branch Samsara score 8 or higher",
+            "green": "Branch Samsara score 7 or higher",
+            "red": "Branch Samsara score less than 7"
+          },
+          "status": "blocked",
+          "currentValue": "",
+          "nextAction": "Awaiting Madison Games data",
+          "lastUpdated": "2026-09-08"
+        },
+        {
+          "id": 5,
+          "name": "OPS Flex Goal",
+          "thresholds": {
+            "superGreen": "OPS flex goal defined and approved by RGNL by AUG 15. Approved Super Green goal met by EOQ.",
+            "green": "OPS flex goal defined and approved by RGNL by AUG 30. Approved Green goal met by EOQ.",
+            "red": "Flex goal undefined by AUG 30 or approved Green goal not met."
+          },
+          "status": "red",
+          "currentValue": "Red. Defined last week but never huddled to update.",
+          "nextAction": "Mike get Zach's flex goal definition on record -- what is it?",
+          "lastUpdated": "2026-09-08"
+        }
+      ]
+    },
+    {
+      "id": "erik-orama",
+      "name": "Erik Orama",
+      "role": "Ops",
+      "roleLabel": "Operations Manager",
+      "branch": "fort-worth",
+      "branchName": "Fort Worth",
+      "bmName": "Grant Hardison",
+      "goals": [
+        {
+          "id": 1,
+          "name": "Mover Training App",
+          "thresholds": {
+            "superGreen": "100% manager sandbox by 8/19. 100% movers enrolled 8/20. 70%+ enrolled movers complete FULL pipeline (Lead Ready) by 10/19.",
+            "green": "100% manager sandbox by 8/19. 100% movers enrolled 8/20. 70%+ enrolled movers complete through stage 4 by EOQ.",
+            "red": "Less than 70% of enrolled movers complete through stage 4 by EOQ."
+          },
+          "status": "green",
+          "currentValue": "Green — 68% completion rate, 3rd in company this week. Daily onsite reinforcement working.",
+          "nextAction": "Continue onsite coaching cadence; urge stragglers to take pictures and complete video modules",
+          "lastUpdated": "2026-09-15"
+        },
+        {
+          "id": 2,
+          "name": "Individual Sales Goal",
+          "thresholds": {
+            "superGreen": "110%+ to quarterly sales goal",
+            "green": "100%+ to quarterly sales goal",
+            "red": "Less than 100% to quarterly sales goal"
+          },
+          "status": "green",
+          "currentValue": "Green — 82% of monthly pace as of 9/15 (expected ~50% at this point). Self-rated Green; SG trajectory.",
+          "nextAction": "Drive sales through end of month; use command center deep dives to target praise + identify more leads",
+          "lastUpdated": "2026-09-15"
+        },
+        {
+          "id": 3,
+          "name": "Scrum University",
+          "thresholds": {
+            "superGreen": "Scrum certification completed and 90+ grade on board scoring",
+            "green": "Scrum certification completed and 80+ grade on board scoring",
+            "red": "Any manager at branch not completed with scrum certification and/or board score below 80"
+          },
+          "status": "blocked",
+          "currentValue": "",
+          "nextAction": "Push Brian for Q3 rollout date",
+          "lastUpdated": "2026-08-11"
+        },
+        {
+          "id": 4,
+          "name": "Fleet Games Accountability",
+          "thresholds": {
+            "superGreen": "Branch Samsara score 8 or higher",
+            "green": "Branch Samsara score 7 or higher",
+            "red": "Branch Samsara score less than 7"
+          },
+          "status": "super_green",
+          "currentValue": "SG — 11 avg QTD. Monitoring dashboard + delivering praise/redirects.",
+          "nextAction": "Maintain Samsara monitoring; watch Ryder's compliance post-redirect conversation",
+          "lastUpdated": "2026-09-15"
+        },
+        {
+          "id": 5,
+          "name": "OPS Flex Goal",
+          "thresholds": {
+            "superGreen": "Branch review score 8 or higher",
+            "green": "Branch review score 7 or higher",
+            "red": "Branch review score less than 7"
+          },
+          "status": "green",
+          "currentValue": "Green — review emphasis shifting to slow-season framing (reviews = hours).",
+          "nextAction": "Push magic moments for review generation; brief crew on asking for both Google reviews and NPS feedback",
+          "lastUpdated": "2026-09-15"
+        }
+      ]
+    },
+    {
+      "id": "shane-heaberlin",
+      "name": "Shane Heaberlin",
+      "role": "Ops",
+      "roleLabel": "Operations Manager",
+      "branch": "tampa",
+      "branchName": "Tampa",
+      "bmName": "Steven Anderson",
+      "goals": [
+        {
+          "id": 1,
+          "name": "Mover Training App",
+          "thresholds": {
+            "superGreen": "100% manager sandbox by 8/19. 100% movers enrolled 8/20. 70%+ enrolled movers complete FULL pipeline (Lead Ready) by 10/19.",
+            "green": "100% manager sandbox by 8/19. 100% movers enrolled 8/20. 70%+ enrolled movers complete through stage 4 by EOQ.",
+            "red": "Less than 70% of enrolled movers complete through stage 4 by EOQ."
+          },
+          "status": "green",
+          "currentValue": "Green — end-of-day support sessions; training day push this week.",
+          "nextAction": "Use training day this week for focused app engagement sessions",
+          "lastUpdated": "2026-09-08"
+        },
+        {
+          "id": 2,
+          "name": "Individual Sales Goal",
+          "thresholds": {
+            "superGreen": "110%+ to quarterly sales goal",
+            "green": "100%+ to quarterly sales goal",
+            "red": "Less than 100% to quarterly sales goal"
+          },
+          "status": "green",
+          "currentValue": "Green — Tampa line open outside blocks; aggressive triage this week.",
+          "nextAction": "More aggressive lead triage; explore non-DFWT leads",
+          "lastUpdated": "2026-09-08"
+        },
+        {
+          "id": 3,
+          "name": "Scrum University",
+          "thresholds": {
+            "superGreen": "Scrum certification completed and 90+ grade on board scoring",
+            "green": "Scrum certification completed and 80+ grade on board scoring",
+            "red": "Any manager at branch not completed with scrum certification and/or board score below 80"
+          },
+          "status": "at_risk",
+          "currentValue": "Unblocked — Brian released Scrum certification. Shane B (83%). Cert due 9/18.",
+          "nextAction": "Complete Scrum certification by 9/18; create QG-Active tracking pulses; add DoDs",
+          "lastUpdated": "2026-09-15"
+        },
+        {
+          "id": 4,
+          "name": "Fleet Games Accountability",
+          "thresholds": {
+            "superGreen": "Branch Samsara score 8 or higher",
+            "green": "Branch Samsara score 7 or higher",
+            "red": "Branch Samsara score less than 7"
+          },
+          "status": "green",
+          "currentValue": "Green — self-downgraded from SG. Slower volume, focus on basics.",
+          "nextAction": "Continue informal coaching in huddles; formal coaching when issues arise",
+          "lastUpdated": "2026-09-08"
+        },
+        {
+          "id": 5,
+          "name": "OPS Flex Goal",
+          "thresholds": {
+            "superGreen": "OPS flex goal defined and approved by RGNL by AUG 15. Approved Super Green goal met by EOQ.",
+            "green": "OPS flex goal defined and approved by RGNL by AUG 30. Approved Green goal met by EOQ.",
+            "red": "Flex goal undefined by AUG 30 or approved Green goal not met."
+          },
+          "status": "green",
+          "currentValue": "Green — Wyngate Property conversation opened (250+ unit relocation, October).",
+          "nextAction": "Follow up with Wyngate on project scope/cadence; continue prospecting other commercial leads",
+          "lastUpdated": "2026-09-08"
+        }
+      ]
+    }
+  ]
+}
